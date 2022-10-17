@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+        <!--android:id="@+id/nav_profile"-->
+        <!--android:icon="@drawable/ic_menu_camera"-->
+        <!--android:title="Profile" />-->
+        <item
+            android:id="@+id/nav_addNumber"
+            android:icon="@drawable/add_number"
+            android:title="Add Number" />
+        <item
+            android:id="@+id/nav_addMessage"
+            android:icon="@drawable/add_message"
+            android:title="Add Message" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/nav_ur_location"
+                android:title="Your Location" />
+            <item
+                android:id="@+id/nav_share_location_simple"
+                android:icon="@drawable/nav_send"
+                android:title="Send Location" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/nav_send"
+                android:title="Send Location At specified Time" />
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Communicate3">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

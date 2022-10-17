@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="com.example.ajans.locationlocationfind.SettingsCustom">
+
+    <LinearLayout
+        android:id="@+id/firstLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CUSTOM"
+            android:textSize="20dp"
+            android:padding="16dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@id/firstLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/radioG1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/zMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a2a1b8"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/colorAccent"
+                android:text="5 sec"
+                android:onClick="onRadioButtonClicked"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+            <RadioButton
+                android:id="@+id/fMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a2a1b8"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/colorAccent"
+                android:text="1 Min"
+                android:onClick="onRadioButtonClicked"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+            <RadioButton
+                android:id="@+id/sMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a2a1b8"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/colorAccent"
+                android:text="5 Min"
+                android:onClick="onRadioButtonClicked"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+            <RadioButton
+                android:id="@+id/tMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a2a1b8"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/colorAccent"
+                android:text="10 Min"
+                android:onClick="onRadioButtonClicked"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+            <RadioButton
+                android:id="@+id/foMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a2a1b8"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/colorAccent"
+                android:text="20 Min"
+                android:onClick="onRadioButtonClicked"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+            <RadioButton
+                android:id="@+id/fiMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a2a1b8"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/colorAccent"
+                android:text="40 Min"
+                android:onClick="onRadioButtonClicked"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+            <RadioButton
+                android:id="@+id/siMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a2a1b8"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/colorAccent"
+                android:text="1 Hour"
+                android:onClick="onRadioButtonClicked"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

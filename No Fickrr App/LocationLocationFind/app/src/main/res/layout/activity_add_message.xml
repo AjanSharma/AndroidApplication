@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajans.locationlocationfind.AddMessage">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:background="#fcfafa"
+        android:padding="20dp">
+
+
+
+        <EditText
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColorHint="#bfbcbc"
+            android:hint="Enter your message here"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/darker_gray"
+            app:backgroundTint="#f903e7d1"/>
+        <TextView
+            android:id="@+id/dispMsg"
+            android:layout_below="@id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Saved Message:"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/msgTextPaste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dispMsg"
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="50dp"/>
+        <Button
+            android:id="@+id/save_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/msgTextPaste"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="125dp"
+            android:text="SAVE"
+            android:textColor="#FFF"
+            android:background="#f903e7d1"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
